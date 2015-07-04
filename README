@@ -1,0 +1,13 @@
+needed:
+  phpseclib (tested with version 0.3.1)
+  database (EddaDevelUtils/exampleDb.sql and EddaDevelUtils/testDataSet.php)
+  ODBC:
+    unixODBC
+    php-odbc
+    libioodbc  
+    <databaseName>-connector-odbc
+
+config:
+  EddaInclude/config.php
+  EddaInclude/odbc.php
+
